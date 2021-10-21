@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url(https://img3.goodfon.com/wallpaper/nbig/c/d7/graviti-folls-graviti-folz-973.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 3.2em;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+  font-size: 1.5em;
+}
+
+.page-subtitle2 {
+  color: #ffffff;
+  margin-top: 16px;
+  font-size: 1.2em;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+  border-color: #000000;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #f4a460;
+  border-color: #000000;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.gif-final {
+  width: 350px;
+  height: 300px;
+}
+
+footer {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
