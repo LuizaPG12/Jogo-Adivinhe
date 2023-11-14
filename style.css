@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Calistoga", serif;
+  min-height: 280px;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/481/507/753/gravity-falls-dark-neon-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px);
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 3.2rem;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 0.7rem;
+  font-size: 1.6rem;
+}
+
+.page-subtitle2 {
+  color: #ffffff;
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+}
+
+.page-logo {
+  margin-top: 0.7rem;
+  width: 200px;
+}
+
+.page-logo:hover {
+  animation: tilt-shaking 0.15s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-color: #000000;
+}
+
+input:hover {
+  border-radius: 10px;
+}
+
+button {
+  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  background: #b041dc;
+}
+
+button:hover {
+  background: #d498ec;
+  border-radius: 16px;
+  color: black;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.gif-final {
+  width: 200px;
+  height: auto;
+}
+
+.footer_txt {
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #0cc5f7;
+}
+
+@media (max-height: 700px) {
+  .page-title {
+    color: #ffffff;
+    font-size: 2.1rem;
+  }
+
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .page-subtitle2 {
+    color: #ffffff;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .page-logo {
+    margin-top: 0.7rem;
+    width: 150px;
+  }
+
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .gif-final {
+    width: 250px;
+    height: auto;
+  }
+}

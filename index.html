@@ -1,0 +1,38 @@
+<!-- Código HTML site -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinhe</title>
+  <link rel="icon" type="image/png" href="https://assets.stickpng.com/images/5b45cb62c051e602a568cd15.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <br><br><br>
+    <h1 class="page-title">
+      Jogo O Mentalista
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt=""><br><br>
+    <p class="page-subtitle">
+      <b>☞ Acerte o valor secreto entre 0 e 10<b>
+    </p><br>
+    <p class="page-subtitle2">
+      Digite um número de 0 a 10:
+    </p>
+    <input type="number" id="valor" /><br>
+    <button type="submit" onclick="Chutar()"><b>Chutar<b></button>
+    <button type="submit" onclick="Novatentativa()"><b>Novo desafio<b></button>
+    <br><br>
+    <h2 class="resultado" id="resultado"></h2>
+  </div>
+  <br><br>
+  <footer>
+    <p class="footer_txt">Desenvolvido por <a href="https://github.com/LuizaPG12">Luiza12</a> inspirado em <br> Gravity Falls #imersaodev</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
